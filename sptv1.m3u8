@@ -2,9 +2,7 @@
 #EXTVLCOPT:inputstream=inputstream.adaptive
 #EXTVLCOPT:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Firefox
-
 #EXT-X-VERSION:3
-#EXT-X-ALLOW-CACHE:YES
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5000000
 
 http://livein1.com:8080/play/live.php?mac=00:1a:79:b1:85:5e&stream=78797&extension=m3u8
