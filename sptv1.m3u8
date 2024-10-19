@@ -11,13 +11,12 @@
 
 #EXT-X-STREAM-INF:BANDWIDTH=5000000,AVERAGE-BANDWIDTH=5000000,RESOLUTION=1920x1080
 
-
-http://viprive.top:8080/live/VIP01507172382071594/f6f2675a5df9/128883.m3u8
 http://45.12.1.14:8080/live/lzteRPxhdy88/FLz1w457/17744.m3u8
 http://45.12.1.14:8080/live/lzteRPxhdy88/FLz1w457/3221.m3u8
+
 http://45.12.1.14:80/live/JohnM12/niSxQr880/17744.m3u8
 http://45.12.1.14:80/live/uulfFM42/GziDIa09/3221.m3u8
-http://darktv.eu:80/play/live.php?mac=00:1A:79:7C:7F:6A&stream=30335&extension=m3u8
+
 http://io.t-v.io:80/play/live.php?mac=00:1a:79:55:60:00&stream=1736&extension=m3u8
 
 
