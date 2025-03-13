@@ -1,24 +1,21 @@
 #EXTM3U
-
-#EXTVLCOPT:inputstream=inputstream.adaptive
-#EXTVLCOPT:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:network-caching=9999
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:repeat=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
-
-#EXT-X-VERSION:3
-#EXT-X-INDEPENDENT-SEGMENTS
-#EXT-X-PROGRAM-DATE-TIME
-#EXT-X-DISCONTINUITY-SEQUENCE
-
-#EXT-X-STREAM-INF:BANDWIDTH=5000000,AVERAGE-BANDWIDTH=5000000,RESOLUTION=1920x1080
-
-http://45.12.1.14:8080/live/lzteRPxhdy88/FLz1w457/17744.m3u8
-http://45.12.1.14:8080/live/lzteRPxhdy88/FLz1w457/3221.m3u8
-
-http://45.12.1.14:80/live/JohnM12/niSxQr880/17744.m3u8
-http://45.12.1.14:80/live/uulfFM42/GziDIa09/3221.m3u8
-
-http://io.t-v.io:80/play/live.php?mac=00:1a:79:55:60:00&stream=1736&extension=m3u8
-
+#EXT-X-VERSION:7
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-TARGETDURATION:10
+#EXT-X-MEDIA-SEQUENCE:20
+#EXTINF:10,
+http://45.12.1.14:80/live/JohnM12/niSxQr880/17744.ts
+#EXTINF:10,
+http://206.212.244.71:8080/live/Gizvid108@giz.com/1234@4321/167742.ts
+http://fortv.cc:8080/live/Gizvid106@giz.com/1234@4321/167742.ts
+#EXTINF:10,
+http://206.212.244.71:8080/live/Alan/Alan1234/167742.ts
+#EXTINF:10,
+http://206.212.244.71:8080/live/Gizvid112@giz.com/1234@4321/167742.ts
 
 
 
