@@ -8,6 +8,8 @@
 #EXT-X-TARGETDURATION:10
 #EXT-X-MEDIA-SEQUENCE:20
 #EXTINF:10,
+http://1.rif1.fun:80/play/f28DEeqrCoX32TDwiZ_-JnsLa6cRljn0SXr99E4vW5eWPOXMit8T297eRvFep4cY/ts
+#EXTINF:10,
 http://206.212.244.71:8080/live/Gizvid108@giz.com/1234@4321/167742.ts
 #EXTINF:10,
 http://fortv.cc:8080/live/Gizvid106@giz.com/1234@4321/167742.ts
